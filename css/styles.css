@@ -83,7 +83,8 @@ align-items: center;}
 }
 
 .nav-list {
-    display: flex;
+    display: none;
+    /*display: flex;*/
     gap: 40px;
 }
 
@@ -123,7 +124,8 @@ align-items: center;}
 }
 
 .address-list {
-    display: flex;
+    display: none;
+    /*display: flex;*/
     gap: 40px;
 }
 
