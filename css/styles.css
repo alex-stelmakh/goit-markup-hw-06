@@ -48,6 +48,8 @@ ol {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
     padding: 0;
     margin: 0;
 }
@@ -139,7 +141,7 @@ align-items: center;}
 /*===================HERO=====================*/
 
 .hero {background-color: #2e2f42;
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob.jpg);
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg-mob.jpg);
     padding-top: 72px;
     padding-bottom: 72px;
     /*padding-top: 188px;
@@ -153,7 +155,7 @@ align-items: center;}
 
 @media screen and (min-resolution:192dpi) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob-2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg-mob-2x.jpg);
     }
 }
 
@@ -515,10 +517,10 @@ align-items: center;}
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
-
-    display: flex;
+    text-align: center;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
 
 .footer-media-list {
@@ -560,12 +562,9 @@ align-items: center;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #fff;
     margin-bottom: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
 
 .footer-form {
@@ -872,14 +871,14 @@ textarea::placeholder {
     }
 
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg-tab.jpg);
         padding-top: 112px;
         padding-bottom: 112px;
     }
 
     @media screen and (min-resolution:192dpi) {
         .hero {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab-2x.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg-tab-2x.jpg);
         }
     }
 
@@ -949,11 +948,11 @@ textarea::placeholder {
     }
 
     .footer-media-title{
-        justify-content: start;
+        text-align: left;
     }
 
     .footer-subscrible-title {
-        justify-content: start;
+        text-align: left;
     }
 
     .footer-form {
@@ -972,14 +971,14 @@ textarea::placeholder {
     }
 
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-dstop.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg-dstop.jpg);
         padding-top: 188px;
         padding-bottom: 188px;
     }
 
     @media screen and (min-resolution:192dpi) {
         .hero {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg-dstop-2x.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg-dstop-2x.jpg);
         }
     }
 
