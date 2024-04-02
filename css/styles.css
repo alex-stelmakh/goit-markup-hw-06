@@ -82,7 +82,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
+    /*margin-right: 76px;*/
 }
 
 .logo-part {
@@ -1011,6 +1011,32 @@ textarea::placeholder {
         width: 768px;
     }
 
+    .header-container {
+        padding: 0px 16px;
+    }
+
+    .menu-open-btn {
+        display: none;
+    }
+
+    .mob-menu {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 120px;
+    }
+
+    .nav-list {
+        display: flex;
+    }
+
+    .address-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg-tab.jpg);
         padding-top: 112px;
@@ -1114,6 +1140,15 @@ textarea::placeholder {
     .container {
         width: 1158px;
         padding: 0 15px;
+    }
+
+    .logo {
+        margin-right: 76px;
+    }
+
+    .address-list {
+        flex-direction: row;
+        gap: 40px;
     }
 
     .hero {
